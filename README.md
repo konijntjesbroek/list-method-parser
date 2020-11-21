@@ -3,15 +3,15 @@ Purpose: Parses all metods for lists
 Author: Arlo Gittings    
 Created: 2020-11-20    
 
-    Usage:    
+Usage:
+
         command count:                  number of actions to take on the list (probably want to keep this under 100k)
              <number>:                  enter a command from the below methods format:
                                             command arg1 arg2 ...
                                         ex:
                                             append 'new_element' 
-                                            
-                                            
-    Available methods:    
+Available methods:
+    
         append(new_element)             add new_element to end of list
         clear()                         remove all elements from the list
         count(element)                  returns the number of occurances of element in list

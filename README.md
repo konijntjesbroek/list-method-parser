@@ -25,18 +25,18 @@ Created: 2020-11-20
         reverse()                       place all elements of list in opposite order 
         sort(key, reverse=True|False)   sort the list according to function key with largest or smallest value first
 
-Special considerations:    
-    Strings must be encapsulated by quotes:   
+Special considerations:
+Strings must be encapsulated by quotes:   
     
         append 'element'            <= works ok 
         append element              <= not so much
         
-    Spaces are currently reserved for separating arguments, so placing spaces insde of an argument will cause this to throw mysterious errors. For example:
+Spaces are currently reserved for separating arguments, so placing spaces insde of an argument will cause this to throw mysterious errors. For example:
         
         extend [1,2,3,4,5]          <= works ok 
         extend [1, 2, 3, 4, 5]      <= not so much
-        
+         
         append 'new_element'        <= works ok 
         append 'new element'        <= breaks in a funny, non-obvious (to me) manner
     
-    Methods that return a value are functional but the return is thrown a way this causes pop() to look suspiciously like it just removed the last element. index() does not appear to do anything, yet. This is top on my resolution bucket.
+Methods that return a value are functional but the return is thrown a way this causes pop() to look suspiciously like it just removed the last element. index() does not appear to do anything, yet. This is top on my resolution bucket.

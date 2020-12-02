@@ -1,5 +1,10 @@
-Updates: all times in UTC 
+ Updates: all times in UTC 
     2020-11-20 2200 Completed initial challenge on HackerRank
     2020-ll-21 0100 Created documentation for calling and known bugs
     2020-ll-21 0223 Added spacing and running command count 
-    2020-11-21 0311 Fixed the readme (and discovered the color of my energy)
+    2020-12-02 0300 adding interactive stub and functions for handling greeting
+                        and mode selection. Moved batch mode from main to its
+                        own function.
+    2020-12-02 0610 batch mode now preserves the data from pop and count returns
+    2020-12-02 0620 moved author notes above usage and migrated updates to
+                        to the change log.

@@ -118,7 +118,21 @@ def b_mode(command_count):
 
 
 def i_mode():
-    print('Entering interactive mode')
+    arr = []
+    holder = ''
+
+    print('Entering interactive mode\nPress q to quit')
+    cmd = input('command: ').strip().split()
+
+    while cmd[0][0].lower() != 'q':
+        if cmd[0].lower() == 'print':
+            print(f'holder: {holder}\narr: {arr}\n')
+        elif cmd[0].lower() == 'pop' or cmd[0].lower() == 'count':
+            holder = eval('arr.'+cmd[0]+'('+', '.join(cmd[1:])+')')
+        else:
+            eval('arr.'+cmd[0]+'('+', '.join(cmd[1:])+')')
+            
+        cmd = input('command: ').strip().split()
 
 
 welcome()

@@ -9,3 +9,5 @@
     2020-12-02 0620 moved author notes above usage and migrated updates to
                         to the change log.
     2020-12-03 0630 cleaned up whitespace and lines
+    2020-12-03 0725 interactive mode works, systems that have default python2.7 
+                        make me angry
